@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+header{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10%;
+   }
+.image{
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+.title{
+    
+    vertical-align: middle;
+    display: inline-block;
+}
+
+main{
+    background-color:lightgray;
+    height: 90%;
+    padding: 50px 150px 10px 150px;
+}
+
+html,body{
+   height: 100%;
+}
+
+.add{
+
+    
+    
+    
+
+
+    
+}
+.button-1{
+    background-color: blue;
+    display: inline-block;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+
+
+}
+.button-2{
+    display: inline-block;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 8px;
+    color: lightgray;
+
+
+}
+.odd{
+
+    background-color: white;
+    height: 100%;
+    padding-left: 50px; ;
+    padding-top: 10px;
+}
+
+
+
+    
+ 

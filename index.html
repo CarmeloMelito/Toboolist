@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/Logo.png" alt="logo" class="logo" />
+      <h1 class="title">Toboolist</h1>
+    </header>
 
-</head>
-<body>
-   <header>
-     <img src="img/Logo.png" alt="logo" class="image">
-           <h1 class="title">Toboolist</h1>
-   </header>
+    <main>
+      <div class="main-container">
+        <div class="buttons-container">
+          <div class="button button-1">Add Task</div>
+          <div class="button button-2">Add Section</div>
+        </div>
 
-   <main>
-    <div class="odd">
-    <div class="add">
-      <div class="button-1">Add Task</div>
-      <div class="button-2">Add Section</div>
- </div>
- 
-<hr class="linea">
+        <hr class="divider"/>
+       
+    <div class="accordions-container">
+       
+          <div class="accordion-container">
+          <span>&#128899</span>
+          <span class="accordion-title">New Task</span></div>
+            <div class="row">
+               <span class="icon icon-check">&#10003</span>
+               <span>Quarterly Newsletter</span>
+               <span class="colored-tag editorial">Editorial</span>
+            </div>
+       
+         <div class="accordion-container">
+            <span>&#128899</span>
+            <span class="accordion-title">Today</span></div>
+            <div class="row"><span class="icon icon-check">&#10003</span>
+            <span>Recruiting blog post</span>
+            <span class="colored-tag editorial">Editorial</span></div>
 
-</div>
+            <div class="row"><span class="icon icon-check">&#10003</span>
+              <span>Recruiting blog post</span>
+              <span class="colored-tag q1-goals">Q1 Goals</span></div>
+        
+              <div class="row"><span class="icon icon-cross"> &#9747</span>
+                <span>Recruiting blog post</span>
+                <span class="colored-tag recruiting ">Recruiting</span></div>
 
+                <div class="row"><span class="icon icon-check">&#10003</span>
+                  <span>Recruiting blog post</span>
+                  <span class="colored-tag mobile">Mobile</span></div>
+      
+    
 
-
-
-
-
-   </main>
- 
-</body>
+            
+         
+              
+          
+            
+        
+    </div>
+  </div>
+    </main>
+  </body>
 </html>

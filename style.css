@@ -1,70 +1,142 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
-header{
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 10%;
-   }
-.image{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  padding: 20px;
+   height: 10%;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.title {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+main {
+  background-color: lightgray;
+  height: 90%;
+  padding: 50px 150px 10px 150px;
+}
+
+.buttons-container {
+  padding: 4px;
+  padding-left: 30px;
+  
+}
+.button {
+  border-radius: 8px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.button-1 {
+  background-color: #09a9ed;
+  color: white;
+}
+
+.button-2 {
+  border: 1px solid lightgray;
+  color: lightgray;
+}
+
+.main-container {
+  background-color: white;
+  height: 100%;
+  
+  }
+
+.divider{
+  background-color: lightgrey;
+  border: none;
+  height: 1px;
+  
+}
+
+.accordions-container{
+    padding-left: 30px;
+    margin-top: 20px;
     
-    display: inline-block;
-    vertical-align: middle;
 }
-.title{
+.accordion-container{
     
-    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.accordion-title{
+font-weight: bold;
+font-size: 18px;
+
+}
+.icon{ 
+    border-radius: 50%;
+    padding: 2px;
+    height: 25px;
+    width: 25px;  
     display: inline-block;
+    text-align: center;
 }
-
-main{
-    background-color:lightgray;
-    height: 90%;
-    padding: 50px 150px 10px 150px;
+.icon-check{
+    color: limegreen;
+    border: 2px solid limegreen;
 }
-
-html,body{
-   height: 100%;
+.icon-cross{
+    color: red;
+    border: 2px solid red;
 }
+.colored-tag{
+    border: 1px;
+border-radius: 50px;
+text-align: center;
+color: white;
+padding: 7px;
+font-size: 12px;
+}
+.editorial{
+background-color:#09a9ed;
 
-.add{ 
-    padding: 4px;
-    margin-left: 20px;
+}
+.q1-goals{
+    background-color:#ab5de6;
     
-}
-.button-1{
-    background-color: blue;
+    }
+    .recruiting{
+        background-color:#2cc6ab;
+        
+        }
+        .mobile{
+            background-color:#ff9b00;
+            
+            }
+            .website{
+                background-color:#ec4a9d;
+                
+                }
+                .sales{
+                    background-color:#a3d116;
+                    
+                    }
+                  
+          
+.today-container{
+    padding-left: 30px;
+    margin-top: 20px;
     display: inline-block;
-    color: white;
-    border-radius: 8px;
-    padding: 10px;
-
-
-}
-.button-2{
-    display: inline-block;
-    border: 1px solid lightgray;
-    padding: 10px;
-    border-radius: 8px;
-    color: lightgray;
-
-
-}
-.odd{
-
-    background-color: white;
-    height: 100%;
-    margin: 8px;
 }
 
-.linea{
-    background-color: lightgrey;
-    border: none;
-    height: 1px;
+.row{
+    margin-bottom: 20px;
 }
 
 
-    
- 
+

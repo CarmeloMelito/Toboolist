@@ -12,7 +12,7 @@ body {
 
 header {
   padding: 20px;
-   height: 10%;
+  height: 10%;
 }
 
 .logo {
@@ -31,13 +31,13 @@ main {
 }
 
 .buttons-container {
-  padding: 4px;
+  padding: 5px;
   padding-left: 30px;
-  
+  padding-top: 10px;
 }
 .button {
   border-radius: 8px;
-  padding: 10px;
+  padding: 10px 15px;
   display: inline-block;
 }
 
@@ -54,89 +54,79 @@ main {
 .main-container {
   background-color: white;
   height: 100%;
-  
-  }
+}
 
-.divider{
+.divider {
   background-color: lightgrey;
   border: none;
   height: 1px;
-  
 }
 
-.accordions-container{
-    padding-left: 30px;
-    margin-top: 20px;
-    
-}
-.accordion-container{
-    
-    margin-bottom: 10px;
-}
-.accordion-title{
-font-weight: bold;
-font-size: 18px;
-
-}
-.icon{ 
-    border-radius: 50%;
-    padding: 2px;
-    height: 25px;
-    width: 25px;  
-    display: inline-block;
-    text-align: center;
-}
-.icon-check{
-    color: limegreen;
-    border: 2px solid limegreen;
-}
-.icon-cross{
-    color: red;
-    border: 2px solid red;
-}
-.colored-tag{
-    border: 1px;
-border-radius: 50px;
-text-align: center;
-color: white;
-padding: 7px;
-font-size: 12px;
-}
-.editorial{
-background-color:#09a9ed;
-
-}
-.q1-goals{
-    background-color:#ab5de6;
-    
-    }
-    .recruiting{
-        background-color:#2cc6ab;
-        
-        }
-        .mobile{
-            background-color:#ff9b00;
-            
-            }
-            .website{
-                background-color:#ec4a9d;
-                
-                }
-                .sales{
-                    background-color:#a3d116;
-                    
-                    }
-                  
-          
-.today-container{
-    padding-left: 30px;
-    margin-top: 20px;
-    display: inline-block;
+.accordions-container {
+  padding-left: 30px;
+  margin-top: 35px;
 }
 
-.row{
-    margin-bottom: 20px;
+.accordion-container {
+  margin-bottom: 15px;
 }
 
+.accordion-title {
+  font-weight: bold;
+  font-size: 18px;
+}
 
+.icon {
+  border-radius: 50%;
+  padding: 2px;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  text-align: center;
+}
 
+.icon-check {
+  color: limegreen;
+  border: 2px solid limegreen;
+}
+
+.icon-cross {
+  color: red;
+  border: 2px solid red;
+}
+.colored-tag {
+  border: 1px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  padding: 7px;
+  font-size: 12px;
+}
+
+.editorial {
+  background-color: #09a9ed;
+}
+
+.q1-goals {
+  background-color: #ab5de6;
+}
+
+.recruiting {
+  background-color: #2cc6ab;
+}
+
+.mobile {
+  background-color: #ff9b00;
+}
+
+.website {
+  background-color: #ec4a9d;
+}
+
+.sales {
+  background-color: #a3d116;
+}
+
+.row {
+  margin-bottom: 20px;
+}
